@@ -1,0 +1,25 @@
+{
+  "name": "selenium-webdriver-ts",
+  "version": "1.0.0",
+  "description": "Selenium-webdriver using typescript",
+  "scripts": {
+    "install": "./node_modules/.bin/selenium-standalone install",
+    "start": "./node_modules/.bin/selenium-standalone start",
+    "test": "tsc -p . --outDir build && mocha build/**/*.js",
+    "prepublish": "tsc -p ."
+  },
+  "author": "Jinesh Doshi",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/mocha": "^2.2.32",
+    "@types/node": "^6.0.45",
+    "@types/selenium-webdriver": "^2.53.33",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "mocha-typescript": "^1.0.11",
+    "selenium-standalone": "^5.7.2",
+    "selenium-webdriver": "^3.0.0-beta-3",
+    "typescript-require": "^0.2.9-1"
+  }
+}

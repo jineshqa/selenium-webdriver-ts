@@ -1,0 +1,4 @@
+*.js
+*.png
+build
+node_modules
